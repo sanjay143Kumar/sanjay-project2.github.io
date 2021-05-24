@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visudh Ajivam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style> 
+            * {
+            margin: 0;
+            padding: 0;
+
+            font-family: 'sans-serif';
+        }
+        
+
+        div {
+            color: red;
+        }
+
+        .navbar ul .appointment-btn {
+            overflow: auto;
+
+        }
+
+        .navbar {
+            margin-left: 24%;
+        }
+
+        .navbar li {
+
+            float: left;
+            list-style: none;
+            margin: 5px;
+            margin-top: 13px;
+            font-size: medium;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: navy;
+            color: rgb(177, 19, 19);
+            font-weight: bold;
+            border-radius: 30px;
+
+        }
+         
+
+        .navbar li a:hover {
+            color: red;
+            font-size: 17px;
+            border-bottom: 2px solid black;
+
+        }
+
+        .navbar li a:active {
+            color: red;
+            font-size: 18px;
+        }
+        .w3-button{
+            padding: 3px 3px;
+            text-decoration: navy;
+            color: rgb(177, 19, 19);
+            font-weight: bold;
+            border-radius: 30px;
+            margin-top: 11px;
+            font-size: medium;
+ 
+
+        }
+        .w3-button:hover{
+
+            color: red;
+            font-size: 18px;
+        }
+
+        .appointment-btn {
+            width: 185px;
+            padding: 11px 20px;
+            border-radius:50px;
+            float: right;
+            margin-right: 5%;
+            text-decoration: none;
+            background-color: #0000ff;
+            color: #00bfff;
+            font-weight: bolder;
+        }
+
+        .appointment-btn:hover {
+
+            font-weight: bolder;
+            color: white;
+            /* border: 2px solid white; */
+
+        }
+
+        h1 a {
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        h1 a:hover {
+            color: blueviolet;
+            font-weight: normal;
+        }
+        #visudh {
+            color: blue;
+         }
+        #visudh:hover {
+            color:rgb(47, 47, 116);
+        }
+
+        .text-danger {
+            color: red;
+            padding: 7px;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        .text-danger:hover {
+
+            color: solid rgb(129, 42, 42);
+            font-weight: normal;
+
+        }
+
+
+         #bg {
+            background: url(images/image5.jpg);
+            /* position: relative; */
+
+        } 
+        
+
+        .sec1 {
+ 
+            font-size: 30px;
+            margin-top: 10%;
+            margin-left: 20px;
+
+        }
+
+        .sec1 h2 {
+            color: blue;
+        }
+
+        .sec1 h2 span {
+            color: red;
+        }
+
+        .sec1 p {
+            color: rgb(88, 6, 28);
+            font-size:20px;
+        }
+
+        .sec1 #sec1-btn {
+
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 30px;
+            background-color: rgb(9, 103, 161);
+            padding: 15px 35px;
+            font-size: 15px;
+            position: relative;
+            z-index: 1;
+            transition: 0.5s;
+        }
+
+        #sec1-btn a span {
+
+            width: 50%;
+            /* height: 100%; */
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: -1; 
+             transition: 0.5s;
+        }
+
+        #sec1-btn:hover {
+            color: black;
+            font-weight: bold;
+            transition: 0.9s;
+
+        }
+
+        .section2 {
+            margin-top:5%;
+            width: 100%;
+
+        }
+
+        .sec2 {
+
+            margin: 18px;
+            margin-left:20px;
+            padding:15px;
+            width: 320px;
+            height:390px;
+            background-color:lavender;
+            display: flex;
+            flex-direction: row-reverse;
+            float: left;
+            border-radius: 10px;
+            /* background: url(images/image1.jpg); */
+
+        }
+
+        .sec2:hover {
+            background-color: #44448b;
+            color: white;
+ 
+
+        }
+
+        .sec2-2d {
+
+            margin: 8px;
+            padding: 5px;
+            width: 250px;
+            height:390px;
+            background-color:lavender;
+            display: flex;
+            flex-direction: row-reverse;
+            float: left;
+            border-radius: 18px;
+            /* background: url(images/image3_11.jpg); */
+        }
+
+        .sec2-2d:hover {
+            background-color:  #44448b;
+            color: white;
+
+        }
+
+        .sec2 {
+            display: flex;
+            flex-direction:column;
+            color: white;
+            padding: 15px;
+            margin: 10px;
+            display: border-box;
+
+        }
+
+        .sec2 h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            margin-left: 20px;
+         }
+
+        .sec2 p {
+            font-size: 15px;
+            color: black;
+         }
+         .sec2 :hover{
+             color:white;
+         }
+
+        .sec2 a {
+            width: 140px;
+            padding:6px;
+            margin-left: 27%;
+            margin-top: 50px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            background-color: #4d79ff;
+            border-radius: 12px;
+
+
+        }
+
+        .sec2 a:hover {
+             color: rgb(94, 21, 21);
+            font-weight: bold;
+            background-color: #4d79ff;
+
+ 
+        }
+
+        .sec2-2d {
+            display: flex;
+            flex-direction: column;
+            color:black;
+            padding: 20px;
+            margin: 10px;
+            /* display: border-box; */
+
+
+
+        }
+
+
+        .sec2-2d h2 {
+            font-size:22px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .sec2-2d p {
+            font-size: 15px;
+        }
+
+        .sec2-2d a {
+            width: 130px;
+            padding: 8px;
+            margin-left: 15%;
+            margin-top:20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            background-color: #4d79ff;
+            border-radius: 12px;
+
+
+        }
+
+        .sec2-2d a:hover {
+            background-color: #8ea1d8;
+            color: rgb(133, 31, 31);
+            font-weight: bold;
+        }
+
+        /* features starts here*/
+
+
+
+
+        #feature {
+            /* width: 100%; */
+            padding: 40px;
+            height: 1500px;
+             
+
+
+        }
+
+        .title-text {
+            text-align: center;
+            padding-bottom: 30px;
+            /* padding: 20px; */
+
+        }
+
+        .title-text p {
+
+            margin: auto;
+            margin-top: 60px;
+            font-size:30px;
+            color: #009688;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+        }
+
+        .title-text p::after {
+            content: '';
+            width: 60px;
+            height: 40px;
+            background: linear-gradient(blue, #fff);
+            position: absolute;
+            top: -10px;
+            left: 0;
+            z-index: -1;
+            transform: rotate(10deg);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+
+        }
+
+        .title-text h1 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #49a097;
+
+        }
+
+        .feature-box {
+            width: 98%;
+            margin:20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        .feature {
+            flex-basis: 50%;
+
+        }
+
+        .feature-img {
+            flex-basis:50%;
+            margin:auto;
+             float: right;
+
+
+
+
+        }
+
+        .feature-img img {
+            width:92%;
+            height:480px;
+            border: 1px solid black;
+            border-radius: 10px;
+            position: relative;
+
+
+
+        }
+
+        .feature h1 {
+            text-align: left;
+            margin-bottom: 10px;
+            font-size:23px;
+            font-weight:10px;
+            color:black;
+            font-weight: bold;
+
+
+        }
+
+        .features-desc {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+        .features-icon .fa {
+
+            width:50px;
+            height:50px;
+            font-size:25px;
+            line-height: 50px;
+            border-radius: 8px;
+            color:green;
+            border: 2px solid #009688;
+
+        }
+
+        .features-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .features-text p {
+            padding:25px;
+            height: 190px;
+            margin-top:10px;
+            color: black;
+            font-size: 16px;
+        }
+
+        /* features end here */
+
+        .part3 {
+            width:99%;
+            margin: 5px 10px;
+            padding-top: 5%;
+            height: 400px;
+            margin-left: 60px;
+        }
+
+        /* section3 starts */
+        .sec3 {
+            width: 320px;
+            height: 260px;
+            background-color: royalblue;
+            display: flex;
+            flex-direction: row-reverse;
+            float: left;
+            border-radius: 50px;
+
+        }
+
+        .sec3:hover {
+            background-color: #44448b;
+
+        }
+
+        .sec3-3d {
+
+            margin: 5px;
+             padding: 5px;
+            width: 340px;
+            height: 260px;
+            background-color: royalblue;
+            display: flex;
+            flex-direction: row-reverse;
+            float: left;
+            border-radius: 50px;
+        }
+
+        .sec3-3d:hover {
+            background-color: #44448b;
+
+        }
+
+        .sec3 {
+             display: flex;
+            flex-direction: column;
+            color: white;
+            padding:5px;
+            margin:15px;
+            display: border-box;
+
+        }
+
+        .sec3 h2 {
+            font-size:25px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top:10px;
+        }
+
+        .sec3 p {
+            font-size: 16px;
+            align-items: center;
+            justify-content: center;
+         }
+
+        .sec3-3d {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            margin: 10px;
+             
+
+        }
+
+
+        .sec3-3d h2 {
+            font-size:25px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+         }
+
+        .sec3-3d p {
+            font-size:16px;
+            align-items: center;
+         }
+
+        /* section3 end */
+
+        /* section4 end */
+
+        .part4 {
+            padding-top: 5%;
+            width: 100%;
+            height: 650px;
+             /* background: whitesmoke; */
+
+
+        }
+        .section4{
+            margin:40px;
+            /* background-color: whitesmoke; */
+        }
+
+        .sec4 {
+            width: 335px;
+            height: 290px;
+            /* background-color: white; */
+            background-color: whitesmoke;
+
+            float: left;
+             border-radius: 20px;
+
+        }
+
+        .sec4:hover {
+            background-color: #44448b;
+            color: white;
+
+        }
+
+        .sec4 a:hover {
+            background-color: #44448b;
+            color: white;
+
+
+        }
+
+
+        .sec4-4d {
+
+            margin: 10px;
+            padding: 5px;
+            width: 335px;
+            height: 290px;
+            /* background-color: white; */
+            background-color: whitesmoke;
+
+            float: left;
+            border-radius: 20px;
+        }
+
+        .sec4-4d:hover {
+            background-color: #44448b;
+            color: white;
+
+        }
+
+        .sec4-4d a:hover {
+            background-color: #44448b;
+            color: white;
+
+
+        }
+
+        .sec4 {
+             
+            color: black;
+            padding:20px;
+            margin:10px;
+            
+
+        }
+
+        .sec4 a {
+            font-size:25px;
+             justify-content: center;
+            display: flex;
+             text-decoration: none;
+        }
+
+        .sec4 p {
+            font-size: 18px;
+             
+        }
+
+        .sec4-4d {
+             
+            color: black;
+            padding: 20px;
+            margin: 10px;
+
+        }
+
+
+        .sec4-4d a {
+            font-size:25px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            /* margin-top: 80px; */
+        }
+
+
+        .sec4-4d p {
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+
+
+
+
+        /* section4  end */
+
+
+        /* section5  starts */
+
+
+
+        .part5 {
+            padding-top:5%;
+            width:99%;
+            height:840px;
+            border:1px solid black;
+            background:white;
+            margin: 10px;
+  
+
+        }
+
+        .input {
+            width: 333px;
+            padding: 12px;
+            margin: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+
+
+
+        }
+
+        .choose {
+            width: 356px;
+            padding: 12px;
+            margin: 10px;
+            margin-left: 25px;
+            margin: 10px;
+
+        }
+
+        .textarea {
+            width: 93%;
+            overflow-wrap: break-word;
+            height: 180px;
+            margin: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align:left;
+         
+ 
+
+
+        }
+
+        #submit {
+            width: 300px;
+            padding: 12px;
+            margin-left: 37%;
+            border: 2px solid white;
+            border-radius: 15px;
+            margin-top: 40px;
+            font-size: 18px;
+            background-color: whitesmoke;
+            color: red;
+            font-weight: bold;
+
+        }
+
+        #submit:hover {
+            color: blue;
+            font-size: 20px;
+            background-color: white;
+        }
+
+        /* section5  end */
+
+        /* # Departments */
+        /* -------------------------------------------------------------- */
+
+        #part6 {
+            background: whitesmoke;
+             width: 100%;
+            margin-left:5px;
+            margin-right: 5px;
+ 
+        }
+
+         
+        /* Style tab links */
+        .doctor {
+            height: 500px;
+        }
+
+        .tablink {
+            background-color: cadetblue;
+            color: rgb(228, 32, 32);
+            float: left;
+            border: 1px;
+            margin: 5px;
+            border-radius: 50px;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 12px;
+            font-size: 17px;
+            width: 19%;
+        }
+
+        .tablink:hover {
+            background-color: rgb(31, 185, 121);
+        }
+
+        .tabcontent {
+            color: black;
+            padding: 20px 20px;
+            font-size: 20px;
+
+
+        }
+
+        .img {
+            border-radius: 20px;
+            height: 400px;
+            width: 600px;
+            margin-left: 25%;
+            margin-top: 5%;
+
+        }
+
+        h3 {
+            text-align: left;
+            margin-bottom: 30px;
+            font-weight: 100;
+            color: #009688;
+            font-weight: bold;
+
+        }
+
+        p {
+            padding: 20px;
+            font-weight: bold;
+            text-align: initial;
+        }
+
+        /* ******* department end********* */
+        /* ********doctors starts******** */
+        .part7 {
+            height: 630px;
+            background: white;
+        
+
+        }
+
+        .pic img {
+            width: 190px;
+            height: 190px;
+            border-radius: 100px;
+            border: 1px solid white;
+            margin-left: 5px;
+            margin-top: 10px;
+            float: left;
+            transition: 0.9s;
+
+        }
+
+        .sec7 {
+            width: 490px;
+            height: 220px;
+            background-color: whitesmoke;
+            float: left;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 10px;
+ 
+        }
+
+        .sec7:hover {
+            background-color: #34347a;
+            color: white;
+
+        }
+
+        .sec7 {
+            padding:2px;
+            margin: 20px;
+            margin-left: 90px;
+
+
+        }
+
+        .member-info h4 {
+            font-size: 20px;
+            color: black;
+            padding:7px;
+            margin-left: 10px;
+        }
+
+        .member-info span {
+            font-size: 16px;
+            color: black;
+            padding:20px;
+
+
+        }
+
+        .member-info p {
+            font-size:16px;
+            color: black;
+            padding: 20px;
+
+
+        }
+
+        .social a {
+            text-align: right;
+            font-size:23px;
+            display: inline-block;
+            color: black;
+            margin-left: 20px;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .social a i:hover {
+            color: blue;
+            font-size: 25px;
+        }
+
+        /* ******doctors end*********** */
+
+        /* *********footer************* */
+
+
+        #footer {
+            background-color: whitesmoke;
+
+        }
+
+        .row {
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .footer-contact {
+            margin: 20px;
+            margin-left: 50px;
+
+        }
+
+        .footer-contact h3 {
+            margin-left: 80px;
+            font-size: 30px;
+            margin: 20px;
+        }
+
+        .text-pri {
+            color: rgb(45, 116, 86);
+            padding: 5px;
+        }
+
+        .text-dan {
+            color: red;
+
+        }
+
+        .footer-contact p {
+
+            font-size: 17px;
+            color: rgb(119, 103, 103);
+
+        }
+
+        .footer-contact p strong {
+
+            font-size: 18px;
+            color: rgb(10, 7, 7);
+            opacity: 0.8;
+
+        }
+
+        .footer-menu-links {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .footer-menu-links li {
+            padding: 7px;
+            list-style: none;
+        }
+
+        .footer-menu-links li i {
+            color: black;
+            font-size: 10px;
+            padding: 5px;
+        }
+
+        .footer-menu-links h4 {
+            color: black;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .footer-menu-links li a {
+            text-decoration: none;
+            font-weight: 600;
+            opacity: 0.6;
+        }
+
+        .footer-menu-links li a:hover {
+            color: rgb(146, 1, 1);
+
+        }
+
+        .footer-subscribe {
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        .footer-subscribe h4 {
+            color: black;
+            font-size: 18px;
+            margin-left: 18px;
+        }
+
+        .footer-subscribe p {
+            color: black;
+            font-size: 15px;
+        }
+
+        .footer-subscribe input[type="email"] {
+
+            color: black;
+            width: 250px;
+
+            font-size: 18px;
+            margin-left: 18px;
+            padding: 8px;
+            border-radius: 50px;
+            background-color: white;
+            outline: none;
+            border: 1px solid black;
+            /* opacity: 0.5; */
+
+
+
+
+        }
+
+        .footer-subscribe input[type="submit"] {
+            color: white;
+            width: 130px;
+            padding: 10.5px;
+            padding-bottom: 8.6px;
+            margin-left: -65px;
+            border-radius: 50px;
+            background-color: #0e84f3;
+            font-size: 15px;
+            font-weight: bolder;
+            border: 1px solid black;
+            outline: none;
+
+        }
+
+        .footer-subscribe input[type="submit"]:hover {
+            background: blue;
+
+        }
+
+
+        .footer2 {
+            background-color: rgb(236, 236, 245);
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .copyright {
+            color: black;
+
+        }
+
+        .f2-content {
+            padding: 30px;
+            margin: 15px;
+            margin-left: 35px;
+
+        }
+
+        .f2-content a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .credits {
+            color: black;
+            padding: 5px;
+
+        }
+
+        .social-link {
+            margin-left: 37%;
+            padding: 40px;
+
+        }
+
+        .social-link a i {
+            padding: 5px;
+            font-size: 35px;
+            border-radius: 100%;
+
+        }
+
+
+        /* *********footer************* */
+
+
+
+        /* -------------------------------------------------------------- */
+    </style>
+</head>
+
+<body>
+ 
+     <header class="header">
+        <div class="container">
+
+            <h1 id="comp-name"><a href="main.html" id="visudh">Visudh<span class="text-danger">Ajivam</span></a> </h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Departments">Departments</a></li>
+                    <li><a href="#Doctors">Doctors</a></li>
+                    <li><a href="main.html">Contact</a></li>
+                         <div class="w3-dropdown-hover">
+                            <a href="http://localhost/visudh/subscriber%20database-visudhAjivam/subscribe.php" class="w3-button">Login</a>
+                            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                <a href="http://localhost/visudh/subscriber%20database-visudhAjivam/subscribe.php" class="w3-bar-item w3-button">Sign Up</a>
+                                <a href="#" class="w3-bar-item w3-button">Cart</a>
+                                <a href="#" class="w3-bar-item w3-button">Orders</a>
+                            </div>
+                        </div>
+                        <a href="#makeanappointment" class="appointment-btn">Make an Appointment</a>
+                </ul>
+ 
+            </nav>
+        </div>
+    </header>
+    <section    style="background: url('images/image2.jpg');" > 
+
+    <section class="section" id="bg">
+        <div class="sec1">
+            <h2>WELCOME TO VISUDH <span> AJIVAM </span></h2>
+            <p>We Provide You High Quaility Services</p>
+            <a id="sec1-btn" href="main.html"><span></span> ORDER MEDICINE</a>
+        </div>
+
+ </section>
+
+    
+    <section class="section2" id="bg">
+        <div class="sec2">
+            <h2>Why Choose Medilab?</h2>
+            <p>VISUDH AJIVAM PVT LTD is one of the best digital platform for health care services integrated with
+                pharmacies, doctors, labtests, diagnosis centres across India to provide world class Healthcare
+                facilities to individuals across the country.</p>
+            <a href="">Learn More</a>
+        </div>
+
+        <div class="sec2-2d">
+            <h2>DIAGNOSIS</h2>
+            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            <a href="">Book Now</a>
+
+
+        </div>
+
+        <div class="sec2-2d">
+            <h2>BOOK LAB TEST</h2>
+            <p>Set up an appointment, Call or Mail us.</p>
+            <a href="">Book Now</a>
+
+        </div>
+
+        <div class="sec2-2d">
+            <h2>MEDICAL STORE NEAR ME</h2>
+            <p>Visudhajivam is India's Largest Online medical store where you can shop for quality online and offline
+                medicines, wellness products.</p>
+            <a href="">Find Now</a>
+
+        </div>
+    </section>
+</section>
+
+
+
+    
+
+    <section id="feature">
+        <br />
+        <br />
+        <div class="title-text">
+            <p id="aboutus" style="font-size:40px;padding:0px;">About Us </p>
+            <!-- <h1>About Us</h1> -->
+
+
+        </div>
+        <div>
+            <p style="padding:10px ;margin:0px 30px; color:black;font-weight: bold;">VISUDH AJIVAM PVT LTD is one of the
+                best digital platform for health care services integrated with
+                pharmacies, doctors, labtests, diagnosis centres across India to provide world class Healthcare
+                facilities to individuals across the country</p>
+        </div>
+        <br>
+        <br>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Lab Test</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa fa-shield"></i>
+
+                    </div>
+                    <div class="features-text">
+                        <p> We make sure that the quality of service you are getting is world class we give you this
+                            gurranty with every service you opt for online as well as offline.We are one stop solution
+                            for your problems.We are covering a wide range of products, test and doctors with speciality
+                            in different feilds to make the service wide and safest.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="feature">
+                    <h1>Doctors Availability</h1>
+                    <div class="features-desc">
+                        <div class="features-icon">
+                            <i class="fa fa-check-square-o"></i>
+
+                        </div>
+                        <div class="features-text">
+                            <p> We make sure that the quality of service you are getting is world class we give you this
+                                gurranty with every service you opt for online as well as offline.We are one stop
+                                solution for your problems.We are covering a wide range of products, test and doctors
+                                with speciality in different feilds to make the service wide and safest.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <h1>Medicine</h1>
+                    <div class="features-desc">
+                        <div class="features-icon">
+                            <i class="fa fa-inr"></i>
+
+                        </div>
+                        <div class="features-text">
+                            <p> We make sure that the quality of service you are getting is world class we give you this
+                                gurranty with every service you opt for online as well as offline.We are one stop
+                                solution for your problems.We are covering a wide range of products, test and doctors
+                                with speciality in different feilds to make the service wide and safest.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="feature-img">
+                <img src="images/image1.jpg">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    
+
+
+
+    <section class="section3">
+        <div class="part3">
+            <div class="sec3">
+                <h2>Our Vision</h2>
+                <p> To revolutionise the Healthcare sector through this healthtech platform so that each and every
+                    citizen of India can get the best medical needs at there allowing budget.</p>
+
+            </div>
+
+            <div class="sec3-3d">
+                <h2>Our Mission</h2>
+                <p>SVisudh AJIVAM PVT LTD is on a mission to take hand in hand with public and help them across their
+                    medical needs with making the user friendly digital platform without any Hassel at right time.</p>
+
+
+            </div>
+
+            <div class="sec3-3d">
+                <h2>Our Values</h2>
+                <p>VISUDH AJIVAM PVT LTD is one of the best digital platform for health care services integrated with
+                    pharmacies, doctors, labtests, diagnosis centres India world class facilities to individuals across
+                    the country.</p>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section4">
+        <div class="title-text" id="services">
+            <p style="font-size:40px; padding: 0px;">Services</p>
+
+        </div>
+        <div>
+            <p style="padding:10px ;margin:0px 30px; color:black;font-weight: bold;height:100px; font-size:16px;">VISUDH AJIVAM PVT
+                LTD is one of the
+                best digital platform for health care services integrated with
+                pharmacies, doctors, labtests, diagnosis centres across India to provide world class Healthcare
+                facilities to individuals across the country.</p>
+        </div>
+
+
+
+
+
+
+        <div class="part4">
+            <div class="sec4">
+                <a href="">DIAGNOSIS</a>
+                <p>We are expert in the diagnosis and treatment, Set up an appointment, Call or Mail us.</p>
+
+            </div>
+
+            <div class="sec4-4d">
+                <a href="">LAB TEST</a>
+                <p>Set up an appointment, Call or Mail us.</p>
+
+
+
+            </div>
+
+            <div class="sec4-4d">
+                <a href="">Doctor APPOINTMENT</a>
+                <p>Set up an appointment, Call or Mail us.</p>
+
+
+            </div>
+
+
+
+
+
+            <div class="sec4">
+                <a href="">ORDER MEDICINE</a>
+                <p>All our medicines undergo a three-step quality check process to ensure they are of high quality,
+                    Call or Mail us.</p>
+
+            </div>
+
+            <div class="sec4-4d">
+                <a href="">CUSTOMER SUPPORT</a>
+                <p>We have 24*7 excellent customer support,Call or Mail us.</p>
+
+
+
+            </div>
+
+            <div class="sec4-4d">
+                <a href="">MEDICAL STORE NEAR ME</a>
+                <p>Visudhajivam is India's Largest Online medical store where you can shop for quality online and
+                    offline medicines, wellness products.</p>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="part5">
+        <div class="sec5">
+            <div class="title-text" id="makeanappointment">
+                <p style="font-size:40px;padding: 0px;">Make an Appointment</p>
+
+
+            </div>
+            <div>
+                <p style="padding:10px ;margin:0px 30px; color:black;font-weight: bold;height:100px;">VISUDH AJIVAM PVT
+                    LTD is one of the best digital platform for health care services integrated with pharmacies,
+                    doctors, labtests, diagnosis centres across India to provide world class Healthcare facilities to
+                    individuals across the country.This platform is the fastest, cheapest, safestway for you and your
+                    loved ones for meeting your medical needs in terms of medicine, labtest and doctors availability at
+                    the right time at the best affordable price.</p>
+            </div>
+
+            <div class="form">
+                <form action="">
+
+                    <label for="name"></label><input type="text" class="input" placeholder="Your Name"
+                        autocomplete="off">
+
+
+                    <label for="email"></label><input type="email" class="input" placeholder="Your Email"
+                        autocomplete="off">
+
+                    <label for="phone"></label><input type="tel" class="input" placeholder="Your Phone"
+                        autocomplete="off">
+
+                    <label for="appointment"></label><input type="datetime" class="input" placeholder="Appointment Date"
+                        autocomplete="off">
+
+
+                    <label for="treatment"></label><select name="Select Treatment" class="choose" id="SelectTreatment">
+                        <option value="SelectTreatment">Select Treatment</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Child-treatment">Neorology </option>
+                        <option value="Neorology">Child-treatment</option>
+
+                    </select>
+
+                    <label for="test"></label><select name="SelectTest" class="choose" id="SelectTest">
+                        <option value="SelectTest">SelectTest</option>
+                        <option value="Diagnosis">Diagnosis</option>
+                        <option value="Lab Test">Lab Test</option>
+                        <option value="Op">Op</option>
+                    </select>
+
+
+
+                    <input type="textarea" class="textarea" aria-rowspan="5" aria-colspan="20" wrap="hard" placeholder="Message(Optional)">
+
+                    <input type="submit" name="Make an Appointment" id="submit" value="Make an Appointment">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ======= Departments Section ======= -->
+
+
+
+
+    <section id="departments" class="departments">
+        <div class="container" id="part6">
+            <!-- ********* -->
+            <div class="title-text">
+                <p id="Departments" style="font-size:40px; padding: 0px;">Departments </p>
+
+
+
+            </div>
+            <div>
+                <p style="padding:15px ;margin:0px 30px; color:black;font-weight: bold;">We make sure that the quality
+                    of service you are getting is world class we give you this gurranty
+                    with every service you opt for online as well as offline.We are one stop solution for your
+                    problems.We are covering a wide range of products, test and doctors with speciality in different
+                    feilds to make the service wide and safest.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="main-depart">
+
+                <button class="tablink" onclick="openPage('Cardiology', this, 'blue')"
+                    id="defaultOpen">Cardiology</button>
+                <button class="tablink" onclick="openPage('Neurology', this, 'green')">Neurology</button>
+                <button class="tablink" onclick="openPage('Hepatology', this, 'blue')">Hepatology</button>
+                <button class="tablink" onclick="openPage('Pediatrics', this, 'orange')">Pediatrics</button>
+                <button class="tablink" onclick="openPage('Eye Care', this, 'orange')">Eye Care</button>
+                <section>
+                    <div id="Cardiology" class="tabcontent">
+                        <h3>Cardiology</h3>
+                        <p>Cardiology is the study and treatment of disorders of the heart and the blood
+                            vessels. A person with heart disease or cardiovascular disease may be
+                            referred
+                            to a cardiologist. Cardiology is a branch of internal medicine. A
+                            cardiologist
+                            is not the same as a cardiac surgeon.</p>
+                        <img src="images/departments-1.jpg" alt="" class="img">
+
+
+                    </div>
+
+
+                    <div id="Neurology" class="tabcontent">
+                        <h3>Neurology</h3>
+                        <p>Neurology is the branch of medicine concerned with the
+                            study
+                            and treatment of disorders of the nervous system. </p>
+                        <p>The nervous system is a complex, sophisticated system that regulates and
+                            coordinates body activities. It has two major divisions: Central nervous
+                            system:
+                            the brain and spinal cord.</p>
+                        <img src="images/departments-2.jpg" alt="" class="img">
+                    </div>
+
+
+                    <div id="Hepatology" class="tabcontent">
+                        <h3>Hepatology</h3>
+                        <p>Hepatologist. This is a doctor who diagnoses and treats
+                            diseases associated with the gallbladder, pancreas and liver.</p>
+                        <img src="images/departments-3.jpg" alt="" class="img">
+                    </div>
+
+
+                    <div id="Pediatrics" class="tabcontent">
+                        <h3>Pediatrics</h3>
+                        <p>Pediatrics (also spelled paediatrics or pædiatrics) is the branch of medicine
+                            that involves the medical care of infants, children, and adolescents. The
+                            American Academy of Pediatrics recommends people be under pediatric care
+                            through
+                            the age of 21 (though usually only minors are required to be under pediatric
+                            care).</p>
+                        <img src="images/departments-4.jpg" alt="" class="img">
+
+                    </div>
+
+
+                    <div id="Eye Care" class="tabcontent">
+                        <h3>Eye Care</h3>
+                        <p>But there are other eye problems with liver disease. Dry, itchy eyes and
+                            xanthelasma—small collections of fat on the eyelids—can occur with
+                            cirrhosis.
+                            And congenital liver disorders can affect just about any part of the eye,
+                            including the cornea and lens.</p>
+                        <img src="images/departments-5.jpg" alt="" class="img">
+                    </div>
+
+
+
+                    <script>
+                        function openPage(pageName, elmnt, color) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
+
+
+                            tablinks = document.getElementsByClassName("tablink");
+                            for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].style.backgroundColor = "";
+                            }
+                            document.getElementById(pageName).style.display = "block";
+                            elmnt.style.backgroundColor = color;
+                        }
+
+                        document.getElementById("defaultOpen").click();
+                    </script>
+                </section>
+            </div>
+            <!-- ********** -->
+
+
+    </section>
+
+    <!-- End Departments Section -->
+
+    <!-- doctor section start-->
+    <section class="doctor">
+        <div class="part6">
+            <div class="title-text">
+                <p id="doctors" style="font-size:40px; padding: 0px;">Doctors</p>
+            </div>
+            <div>
+                <p
+                    style="padding:15px ;margin:0px 30px; color:black;font-weight: bold;font-size:18px;text-align: center; justify-content: center;">
+                    We have a wonderful management with us our team doctors.</p>
+            </div>
+        </div>
+
+
+        <!-- ======= Doctors Section ======= -->
+
+
+
+
+
+
+        <section class="part7">
+            <div class="section7">
+                <div class="sec7">
+
+                    <div class="pic"><img src="images/doctors-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Dr.Jhon</h4>
+                        <span>Nerologist</span>
+                        <p>10 years experience</p>
+                        <div class="social">
+                            <a href=""><i class="fa fa-linkedin-square"></i></a>
+                            <a href=""><i class="fa fa-twitter-square"></i></a>
+                            <a href=""><i class="fa fa-facebook-square"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="part7">
+                    <div class="sec7">
+
+                        <div class="pic"><img src="images/doctors-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Dr.Sarah</h4>
+                            <span>Anesthesiologist</span>
+                            <p>Best doctor</p>
+                            <div class="social">
+                                <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                <a href=""><i class="fa fa-facebook-square"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="part7">
+                        <div class="sec7">
+
+                            <div class="pic"><img src="images/doctors-3.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Dr.sandeep</h4>
+                                <span>Cardiology</span>
+                                <p>Best experienced doctor</p>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                    <a href=""><i class="fa fa-twitter-square"></i></a>
+                                    <a href=""><i class="fa fa-facebook-square"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="part7">
+                            <div class="sec7">
+
+                                <div class="pic"><img src="images/doctors-4.jpg" class="img-fluid" alt=""></div>
+                                <div class="member-info">
+                                    <h4>Dr.Hema</h4>
+                                    <span>Neurosurgeon</span>
+                                    <p>Expedienced doctor</p>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-linkedin-square"></i></a>
+                                        <a href=""><i class="fa fa-twitter-square"></i></a>
+                                        <a href=""><i class="fa fa-facebook-square"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+        </section>
+
+
+        <!-- doctor section end -->
+
+
+        <!-- ======= Footer ======= -->
+        <section>
+            <footer id="footer">
+
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="footer-contact">
+                                <b>
+                                    <h3><span class="text-pri">Visudh</span><span class="text-dan">Ajivam</span>
+                                    </h3>
+                                </b>
+                                <p>
+                                    Surya nagar road no-3 Bijulia talab road ward no -8 <br>
+                                    Ramgarh canttRamgarh Jharkhand 829122 <br>
+                                    India <br><br>
+                                    <strong>Phone:</strong> +91 xxxxxxxxxx<br>
+                                    <strong>Email:</strong> info@example.com<br>
+                                </p>
+                            </div>
+
+                            <div class="footer-menu-links">
+                                <h4>Search</h4>
+                                <ul>
+                                    <li><i class="fa fa-chevron-right"></i><a href="#">Home</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="#">About us</a></li>
+                                    <li><i class="fa fa-chevron-right"></i> <a href="#">Services</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="#">Terms of service</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="#">Privacy policy</a></li>
+                                </ul>
+                            </div>
+
+
+
+                            <div class="footer-subscribe">
+                                <h4>Join Our Newsletter</h4>
+                                <p>Enter your email to get our updates.</p>
+                                <form action="http://localhost/visudh/subscriber%20database-visudhAjivam/subscribe.php?" method="post">
+                                    <input type="email" name="email" placeholder="email" required>
+                                    <input type="submit" value="Subscribe">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer2">
+
+                    <div class="f2-content">
+                        <div class="copyright">
+                            &copy; Copyright <strong><span class="text-primary">Visudh</span><span
+                                    class="text-danger">Ajivam</span></strong>. All Rights Reserved
+                        </div>
+                        <div class="credits">
+                            Designed by <a href="">Sanjay Kumar</a>
+                        </div>
+                    </div>
+                    <div class="social-link">
+                        <a href=""><i class="fa fa-linkedin-square"></i></a>
+                        <a href=""><i class="fa fa-twitter-square"></i></a>
+                        <a href=""><i class="fa fa-facebook-square"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-skype"></i></a>
+
+
+
+                    </div>
+                </div>
+            </footer>
+        </section><!-- End Footer -->
+
+
+
+
+</body>
+
+</html>
